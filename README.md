@@ -1,29 +1,11 @@
-After cloning this repository, if you have a Java environment on your machine, you can directly run the commands.
+# Les commandes à exécuter dans le terminal (et non avec le bouton d'IntelliJ) suivantes permettent de tester l'application:
 
-
-# Build the project
-
+## Test avec un argument
 ```
-./gradlew build
+./gradlew run --args="2"
 ```
 
-
-
-# Run the application
-
+## Test avec 2 arguments
 ```
-./gradlew run
-```
-
-To run the application with command line arguments :
-
-```
-./gradlew run --args="premierArgument secondArgument"
-```
-
-
-# Run the tests
-
-```
-./gradlew test
+./gradlew run --args="2 ../sujet_TP/ressources/pokemondatabase.sqlite"
 ```
